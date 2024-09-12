@@ -56,3 +56,19 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
         Notes.txt
 
+Dell@DESKTOP-PEPNSPQ MINGW64 /e/Projects/Project01 (master)
+$ git log
+commit 228d6717e1c23c6af242b2039e11d34a66cc8d73 (HEAD -> master)
+Author: vinnie95 <vineet.krsingh95@gmail.com>
+Date:   Thu Sep 12 13:04:16 2024 +0530
+
+    Notes - starting with GIT
+
+commit 398bd453125b4b8ac1b7668646ba062a4b0b60d8 (origin/master)
+Author: vinnie95 <vineet.krsingh95@gmail.com>
+Date:   Wed Sep 11 22:28:03 2024 +0530
+
+    main file
+
+(origin/master) -- This commit has reached to GIT HUB. This happens after git push.
+(HEAD -> master) - This commit has not reached GIT HUB. So, we need to run git push for it.
