@@ -1,0 +1,58 @@
+VIM editor
+
+:WQ After this press ENTER to quit the VIM editor.
+The 'wq' command in Linux is used in vi or vim editor to write (save) and quit.
+The 'wq!' command is used to forcefully save changes and quit, even when the file is read-only.
+
+1. Go to the folder structure of the project in the Git Bash.
+Dell@DESKTOP-PEPNSPQ MINGW64 ~
+$ pwd
+/c/Users/Dell
+
+Dell@DESKTOP-PEPNSPQ MINGW64 ~
+$ cd ..
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /c/Users
+$ cd ..
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /c
+$ cd E:
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /e
+$ cd Projects/
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /e/Projects
+$ cd Project01
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /e/Projects/Project01 (master)
+
+
+GIT - Version control system
+GIT HUB - Project management system
+
+git init = It is used to create a .git folder in which all the changes in all the files are tracked.
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /e/Projects/Project01 (master)
+$ cd .git/
+COMMIT_EDITMSG  HEAD            config          description     hooks/          index           info/           logs/           objects/        refs/
+
+
+Dell@DESKTOP-PEPNSPQ MINGW64 /e/Projects/Project01 (master)
+$ git add remote origin URL< repo>
+
+We are remotly adding the file in the repository by mentioning the URL. 
+Origin is a tag.
+
+git add <path of the file > <path of the file >
+git 
+
+
+When we do git status, then we can get idea of whick file is added and which file is not added. 
+We track the status of the files uploaded on github from a folder.
+Dell@DESKTOP-PEPNSPQ MINGW64 /e/Projects/Project01 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Notes.txt
+
